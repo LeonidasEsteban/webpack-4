@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --entry ./index.js --output ./bundle.js --mode development",
     "build:local": "webpack --mode production",
-    "build:external": "webpack --config ./external/webpack.config.js"
+    "build:external": "webpack --config ./external/webpack.config.js",
+    "build:multi": "webpack --config ./multi-entry-points/webpack.config.js"
   },
   "keywords": [
     "webpack"
