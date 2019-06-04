@@ -1,4 +1,13 @@
 import '../css/index.css'
 
-document.body.innerHTML = '<p>Si ves este texto por 10 segundos pasan cosas</p>'
+import text from './text'
 
+text()
+
+
+if (module.hot) {
+  module.hot.accept('./text.js', function() {
+    console.log('he recargado en caliente')
+    text()
+  })
+}
