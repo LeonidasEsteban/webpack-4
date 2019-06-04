@@ -1,0 +1,16 @@
+{
+  "loaders": [
+    {
+      "name": "css-loader",
+      "id": "1"
+    },
+    {
+      "name": "style-loader",
+      "id": "2"
+    },
+    {
+      "name": "babel-loader",
+      "id": "3"
+    }
+  ]
+}
