@@ -4,17 +4,33 @@
   "private": true,
   "scripts": {
     "server": "json-server --port 3001 --watch server/db.json",
-    "seed": "node server/seed.js"
+    "seed": "node server/seed.js",
+    "build:dev": "webpack-dev-server --config ./webpack.dev.config.js"
   },
   "dependencies": {
+    "@babel/runtime": "^7.4.5",
     "bootstrap": "4.3.1",
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-router-dom": "4.3.1"
   },
   "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-transform-runtime": "7.4.4",
+    "@babel/preset-env": "7.4.5",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.6",
+    "css-loader": "2.1.1",
     "faker": "4.1.0",
-    "json-server": "0.14.2"
+    "file-loader": "4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "json-server": "0.14.2",
+    "style-loader": "0.23.1",
+    "webpack": "4.33.0",
+    "webpack-cli": "3.3.2",
+    "webpack-dev-server": "3.6.0"
   },
   "eslintConfig": {
     "extends": "react-app"
