@@ -17,7 +17,9 @@
     "build:prepro": "webpack-dev-server --config ./prepro/webpack.config.js",
     "build:prevent-duplication": "webpack --config ./prevent-duplication/webpack.config.js",
     "build:dll": "webpack --config ./dll/webpack.dll.config.js",
-    "build:prevent-duplication-fast": "webpack --config ./dll/webpack.config.js"
+    "build:prevent-duplication-fast": "webpack --config ./dll/webpack.config.js",
+    "build:dynamic:dll": "webpack --config ./dynamic-imports/webpack.dll.config.js",
+    "build:dynamic": "webpack --config ./dynamic-imports/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -31,6 +33,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.4.5",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
     "@babel/plugin-transform-runtime": "7.4.4",
     "@babel/preset-env": "7.4.5",
     "@babel/preset-react": "7.0.0",
