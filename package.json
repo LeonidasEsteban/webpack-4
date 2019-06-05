@@ -15,7 +15,9 @@
     "build:react": "webpack-dev-server --config ./react/webpack.config.js",
     "build:url-loader": "webpack-dev-server --config ./url-loader/webpack.config.js",
     "build:prepro": "webpack-dev-server --config ./prepro/webpack.config.js",
-    "build:prevent-duplication": "webpack --config ./prevent-duplication/webpack.config.js"
+    "build:prevent-duplication": "webpack --config ./prevent-duplication/webpack.config.js",
+    "build:dll": "webpack --config ./dll/webpack.dll.config.js",
+    "build:prevent-duplication-fast": "webpack --config ./dll/webpack.config.js"
   },
   "keywords": [
     "webpack"
