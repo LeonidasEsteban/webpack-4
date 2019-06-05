@@ -5,10 +5,10 @@ module.exports = {
   entry: {
     modules: [
       'react',
-      'react-dom'
+      'react-dom',
+      'react-router-dom',
     ]
   },
-  mode: 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].js',
