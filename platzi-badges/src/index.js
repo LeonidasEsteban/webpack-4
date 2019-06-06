@@ -6,5 +6,13 @@ import './global.css';
 import App from './components/App';
 
 const container = document.getElementById('app');
+function render() {
+  ReactDOM.render(<App />, container);
+}
+render()
 
-ReactDOM.render(<App />, container);
+if (module.hot) {
+  module.hot.accept('./components/App', () => {
+    render()
+  })
+}

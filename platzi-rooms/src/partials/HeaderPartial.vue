@@ -6,7 +6,7 @@
           <router-link
             :to="{ name: 'HomePage' }"
             class="text-black hover:text-grey-darkest no-underline font-semibold text-lg">
-            Platzi Rooms
+            @LeonidasEsteban estuvo aquí
           </router-link>
         </div>
         <div class="flex items-center w-auto">
