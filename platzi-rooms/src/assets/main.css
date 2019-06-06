@@ -1,0 +1,60 @@
+:root {
+  --grid-layout-gap: 15px;
+  --font-family: 'Roboto', sans-serif;
+}
+
+body {
+  @apply bg-grey-lighter;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: var(--grid-layout-gap);
+}
+
+.input__search {
+  @apply shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight;
+}
+
+.input__search:focus {
+  @apply outline-none shadow-outline;
+}
+
+.input__field {
+  @apply shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight;
+}
+
+.input__field:focus {
+  @apply outline-none shadow-outline;
+}
+
+.input__label {
+  @apply block text-grey-darker text-xs font-bold mb-2 uppercase;
+}
+
+/** Buttons */
+.btn {
+  @apply bg-white text-grey-darkest font-semibold py-2 px-4 border border-grey-light rounded
+}
+
+.btn:hover {
+  @apply bg-grey-lightest;
+}
+
+.btn__outline {
+  @apply bg-transparent font-semibold py-2 px-4 border;
+}
+
+.btn__outline:hover {
+  @apply border-transparent;
+}
+
+.btn__outline.btn__outline--teal {
+  @apply text-teal-dark border-teal;
+}
+
+.btn__outline.btn__outline--teal:hover {
+  @apply bg-teal text-white;
+}

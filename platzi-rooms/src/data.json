@@ -1,0 +1,114 @@
+{
+  "services": {
+    "-KpR7vRkiRPpbUd_TVAR": {
+      "slug": "wifi",
+      "name": "Wi-Fi"
+    },
+    "-KsjPKA6hDuHlQK_lJWO": {
+      "slug": "kitchen",
+      "name": "Kitchen"
+    },
+    "-KvclpNRjpI5W-j0JQGU": {
+      "slug": "washer",
+      "name": "Washer"
+    },
+    "-KpOx5Y4AqRr3sB4Ybwj": {
+      "slug": "tv",
+      "name": "TV"
+    },
+    "-KsjO4_W3W9Q2Z2UmuPr": {
+      "slug": "free-parking",
+      "name": "Free Parking"
+    },
+    "-KsjPat5MWCx-dkjNVg8": {
+      "slug": "laptop-workplace",
+      "name": "Laptop Workspace"
+    },
+    "-KsjPjasLh0TFtZmffEo": {
+      "slug": "air-conditioning",
+      "name": "Air Conditioning"
+    }
+  },
+  "rooms": {
+    "-KsjWehQ--apjDBwSBCZ": {
+      "featured_image": "https://images.unsplash.com/photo-1504615755583-2916b52192a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
+      "title": "Private entry, bed/bath&room for your pooch!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper placerat nunc, in accumsan neque eleifend sit amet. Vivamus vitae odio lorem. Phasellus viverra mauris ut lorem ultricies aliquam. Maecenas mollis sem non suscipit facilisis. Nunc quis finibus arcu, a fringilla dui. Praesent efficitur sapien ut porttitor venenatis. Etiam ac tincidunt libero. Donec a sapien nunc. Proin sapien ante, vestibulum id suscipit at, sodales in augue. Nam finibus sodales mattis. Donec vel venenatis ex. Morbi sed nisl libero. Nulla diam turpis, rutrum egestas erat eu, suscipit vestibulum nibh. Pellentesque nec tellus neque. Integer in turpis bibendum, fringilla nisi id, euismod justo.",
+      "publishedAt": 1504035908,
+      "type": "Entire Guest Suite",
+      "location": "Mexico City, Mexico",
+      "price": 25,
+      "meta": {
+        "guests": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "baths": 2,
+        "likes": 0
+      },
+      "services": {
+        "-KpR7vRkiRPpbUd_TVAR": "-KpR7vRkiRPpbUd_TVAR",
+        "-KsjPKA6hDuHlQK_lJWO": "-KsjPKA6hDuHlQK_lJWO",
+        "-KvclpNRjpI5W-j0JQGU": "-KvclpNRjpI5W-j0JQGU"
+      },
+      "userId": "38St7Q8Zi2N1SPa5ahzssq9kbyp1"
+    },
+    "-KvgOAeYDKON22qBjHWQ": {
+      "featured_image": "https://images.unsplash.com/photo-1432303492674-642e9d0944b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "title": "Beautiful, Private Spot in Quiet Ballard",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper placerat nunc, in accumsan neque eleifend sit amet. Vivamus vitae odio lorem. Phasellus viverra mauris ut lorem ultricies aliquam. Maecenas mollis sem non suscipit facilisis. Nunc quis finibus arcu, a fringilla dui. Praesent efficitur sapien ut porttitor venenatis. Etiam ac tincidunt libero. Donec a sapien nunc. Proin sapien ante, vestibulum id suscipit at, sodales in augue. Nam finibus sodales mattis. Donec vel venenatis ex. Morbi sed nisl libero. Nulla diam turpis, rutrum egestas erat eu, suscipit vestibulum nibh. Pellentesque nec tellus neque. Integer in turpis bibendum, fringilla nisi id, euismod justo.",
+      "publishedAt": 1504035908,
+      "type": "Entire Guest Suite",
+      "location": "Mexico City, Mexico",
+      "price": 25,
+      "meta": {
+        "guests": 4,
+        "bedrooms": 1,
+        "beds": 2,
+        "baths": 1,
+        "likes": 0
+      },
+      "services": {
+        "-KpR7vRkiRPpbUd_TVAR": "-KpR7vRkiRPpbUd_TVAR",
+        "-KsjPKA6hDuHlQK_lJWO": "-KsjPKA6hDuHlQK_lJWO",
+        "-KvclpNRjpI5W-j0JQGU": "-KvclpNRjpI5W-j0JQGU"
+      },
+      "userId": "38St7Q8Zi2N1SPa5ahzssq9kbyp1"
+    },
+    "-KxxSnNltjgIvlwAjmW9": {
+      "featured_image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+      "title": "Nice Room close to the airport",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper placerat nunc, in accumsan neque eleifend sit amet. Vivamus vitae odio lorem. Phasellus viverra mauris ut lorem ultricies aliquam. Maecenas mollis sem non suscipit facilisis. Nunc quis finibus arcu, a fringilla dui. Praesent efficitur sapien ut porttitor venenatis. Etiam ac tincidunt libero. Donec a sapien nunc. Proin sapien ante, vestibulum id suscipit at, sodales in augue. Nam finibus sodales mattis. Donec vel venenatis ex. Morbi sed nisl libero. Nulla diam turpis, rutrum egestas erat eu, suscipit vestibulum nibh. Pellentesque nec tellus neque. Integer in turpis bibendum, fringilla nisi id, euismod justo.",
+      "publishedAt": 1504035908,
+      "type": "Private Room in Apartment",
+      "location": "Bogota, Colombia",
+      "price": 20,
+      "meta": {
+        "guests": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "baths": 1,
+        "likes": 0
+      },
+      "services": {
+        "-KpR7vRkiRPpbUd_TVAR": "-KpR7vRkiRPpbUd_TVAR",
+        "-KsjPKA6hDuHlQK_lJWO": "-KsjPKA6hDuHlQK_lJWO",
+        "-KvclpNRjpI5W-j0JQGU": "-KvclpNRjpI5W-j0JQGU"
+      },
+      "userId": "38St7Q8Zi2N1SPa5ahzssq9kbyp1"
+    }
+  },
+  "users": {
+    "38St7Q8Zi2N1SPa5ahzssq9kbyp1": {
+      "avatar": "https://avatars2.githubusercontent.com/u/1901273?s=460&v=4",
+      "email": "hello@coderdiaz.me",
+      "bio": "Frontend Engineer",
+      "name": "Javier Diaz",
+      "username": "coderdiaz",
+      "lastVisitAt": 1549380938650,
+      "registeredAt": 1549380938650,
+      "rooms": {
+        "-KsjWehQ--apjDBwSBCZ": "-KsjWehQ--apjDBwSBCZ"
+      }
+    }
+  }
+}
